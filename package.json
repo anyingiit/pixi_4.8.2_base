@@ -1,9 +1,10 @@
 {
-  "name": "ex2-game_base",
+  "name": "pixi_4.8.2_base",
   "version": "1.0.0",
   "license": "MIT",
   "private": true,
   "main": "./src/js/index.js",
+  "description": "pixi.js 4.8.2 基础配置页面",
   "scripts": {
     "dev": "webpack-dev-server --config webpack.config.js",
     "build": "webpack --config webpack.config.js",
