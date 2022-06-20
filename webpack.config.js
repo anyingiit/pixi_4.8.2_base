@@ -7,7 +7,7 @@ const webpack = require('webpack')
 
 
 module.exports = {
-    entry: path.resolve(__dirname, 'src/js/index.js'),// 打包js文件的入口文件
+    entry: path.resolve(__dirname, 'src/js/index.js'),// webpack打包入口, webpack会根据该文件的依赖生成依赖树
     output: {
         path: path.resolve(__dirname, 'dist'),// 输出位置
         filename: 'bundle.[hash:8].js'// 输出文件名称
