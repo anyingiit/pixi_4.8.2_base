@@ -6,7 +6,7 @@
   "main": "./src/js/index.js",
   "scripts": {
     "dev": "webpack-dev-server --config webpack.config.js",
-    "build": "webpack",
+    "build": "webpack --config webpack.config.js",
     "start": "http-server ./dist"
   },
   "devDependencies": {
