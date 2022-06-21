@@ -3,6 +3,7 @@
 ## dev
 
 ```shell
+yarn install
 yarn dev
 ```
 
@@ -13,6 +14,7 @@ yarn dev
 ## build && run
 
 ```shell
+yarn install
 yarn build
 yarn start
 ```
