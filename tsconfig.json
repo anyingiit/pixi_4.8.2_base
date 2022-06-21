@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    // 重定向输出目录
+    "outDir": "./dist/",
+    // TypeScript文件中的module，采用何种方式实现
+    "module": "ES2020",
+    // TypeScript文件编译后生成的javascript文件里的语法应该遵循哪个JavaScript的版本
+    "target": "es6",
+    // 允许编译JavaScript文件
+    "allowJs": true,
+    // 开启所有严格严查
+    "strict": true,
+    // 处理CommonJS和ES module等标准互引用时的兼容问题
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    // 禁止对同一个文件的不一致的引用
+    "forceConsistentCasingInFileNames": true,
+    // 解析模块的方式
+    "moduleResolution": "node",
+    // Source map，用官方点的话来说，是保存源代码映射关系的文件。 简单来说，他就是一个信息文件，他是一个独立的map文件，里面储存着位置信息。 也就是说，转换后的代码的每一个位置，所对应的转换前的位置。 有了它，出错的时候，除错工具将直接显示原始代码，而不是转换后的代码。
+    // 对ts转换后的js文件生成source map文件, 这样除了问题可以正确的定位到我们写的代码
+    "sourceMap": true
+  }
+}
